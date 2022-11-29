@@ -4,3 +4,30 @@
     box-sizing: border-box;
 }
 
+.container{
+    background-color: rgb(58, 58, 122);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 640px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(136, 139, 232);
+}
+
+.box-red{
+    background-color: red;
+}
+
+.box-beige{
+    background-color: beige;
+}
+
+.box-yellow{
+    background-color: yellow;
+}
